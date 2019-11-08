@@ -1,0 +1,18 @@
+{
+	"manifest_version":2,
+	"name":"KingGnuのSpotify",
+	"version":"1.0",
+	"icons": {
+		"32": "icon_32.png",
+		"64": "icon_64.png",
+		"128": "icon_128.png"
+	},
+	"permissions":["tabs"],
+	"browser_action":{
+	  "default_icon": {
+		"32": "icon_32.png"
+	  },
+	  "default_title":"KingGnuを試聴する",
+	  "default_popup":"popup.html"
+	}
+  }
